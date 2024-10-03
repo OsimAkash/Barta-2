@@ -1,5 +1,4 @@
-## Demo
-[Live link](https://barta.royhridoy.me/)
+
 
 ## Features
 - User Registration (with flash message)
@@ -10,12 +9,15 @@
 
 ## How to install?
 ```bash
-composer install
+## composer install 
 cp .env.example .env
 php artisan migrate
 php artisan key:generate
 php artisan storage:link
 php artisan serve
+Branch Barta
+Commit "Barta"
+Push Origin Barta
 
 # in a separate terminal tab
 npm install && npm run dev
